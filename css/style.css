@@ -1,0 +1,30 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	justify-content:center;
+	background-color: grey;
+	padding-left: 100px;
+}
+.container{
+	display: flex;
+	flex-direction:column;
+	width: 90%;
+}
+header{
+	width: 100%;
+	flex-direction:row;
+	margin: 10px
+}
+form:last-child{
+	float: right;
+}
+section{
+	width: 100%;
+	height: 80%;
+}
+img{
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
