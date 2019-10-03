@@ -5,20 +5,22 @@
 body{
 	justify-content:center;
 	background-color: grey;
-	padding-left: 100px;
+	padding-left: 50px;
 }
 .container{
 	display: flex;
 	flex-direction:column;
 	width: 90%;
+	margin: 0 auto;
 }
 header{
+	display: flex;
 	width: 100%;
 	flex-direction:row;
 	margin: 10px
 }
 form:last-child{
-	float: right;
+	flex-basis:50%;
 }
 section{
 	width: 100%;
